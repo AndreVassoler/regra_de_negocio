@@ -1,0 +1,34 @@
+name: nome_do_projeto
+description: Uma nova aplicação Flutter
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # Adicione outras dependências do projeto aqui
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0  # Adicione a versão mais recente ou adequada para seu projeto
+  test: ^1.25.7
+
+flutter:
+  uses-material-design: true
+
+# Ativos e fontes
+assets:
+  - assets/images/
+  - assets/icons/
+
+# Fontes personalizadas (se houver)
+fonts:
+  - family: Roboto
+    fonts:
+      - asset: assets/fonts/Roboto-Regular.ttf
+      - asset: assets/fonts/Roboto-Bold.ttf
+        weight: 700
